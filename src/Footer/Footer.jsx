@@ -29,11 +29,8 @@ function Footer() {
                                 </li>
                                 <li>
                                     <a href="#">Print</a>
-<<<<<<< HEAD
 
-                                    
-=======
->>>>>>> 67474be (sangen)
+
                                 </li>
                                 <li>
                                     <a href="#">Alternative Ads</a>

@@ -1,21 +1,4 @@
-<<<<<<< HEAD
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import './Footer/Footer'
-import Footer from './Footer/Footer'
-import Gallary from './Gallary/Gallary'
 
-function App() {
- 
-
-  return (
-    <>
-    <Gallary/>
-    <Footer/>
-
-=======
 import React from 'react'
 import Header from './Header/Header'
 import Banner from './Banner/Banner'
@@ -39,13 +22,9 @@ function App() {
     <Contact/>
     <About/>
     <Footer/>
->>>>>>> 67474be (sangen)
+
     </>
   )
 }
+export default App
 
-<<<<<<< HEAD
-export default App
-=======
-export default App
->>>>>>> 67474be (sangen)
