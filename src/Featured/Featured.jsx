@@ -14,7 +14,7 @@ function Featured() {
                             <div className="owl-carousel">
                                 <div className="item"><h1>hellooo</h1></div>
                                 <div className="item"><h1>hellooo</h1></div>
-                                <div className="item"><h1>hellooo</h1></div>
+                                <div className="item"><h1>hellooooo</h1></div>
                             </div>
 
                         </div>
