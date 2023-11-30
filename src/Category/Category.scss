@@ -1,0 +1,23 @@
+.category {
+    margin-top: -60px;
+    &-item {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('https://eskil.qodeinteractive.com/wp-content/uploads/2022/03/shop-1-img-1.jpg');
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        min-height: 200px;
+        border: 2px solid #fff;
+
+        &-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            h3 {
+                font-weight: 600;
+            }
+        }
+    }
+}

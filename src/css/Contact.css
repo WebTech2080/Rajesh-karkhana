@@ -1,0 +1,51 @@
+.contact-header {
+  background-color: #F5F5F5;
+}
+.contact-header h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.contact-body {
+  padding: 60px 0;
+}
+.contact-body-left ul li {
+  font-size: 18px;
+  padding-bottom: 1.9rem;
+}
+.contact-body-left ul li i {
+  font-size: 20px;
+  color: #666666;
+}
+.contact-body-left ul li i:hover {
+  color: #F53311;
+}
+.contact-body-left-header h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.contact-body-right {
+  border: 1px solid #E5E5E5;
+  padding: 40px 50px;
+}
+.contact-body-right input {
+  border: 1px solid #E5E5E5;
+  padding: 8px 12px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contact-body-right textarea {
+  border: 1px solid #E5E5E5;
+  padding: 8px 12px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contact-body-right button {
+  border: 1px solid #E5E5E5;
+  padding: 12px 16px;
+  width: 100%;
+  background-color: #F53311;
+}
+.contact-body-right button:hover {
+  background-color: #e42d0d;
+  border: 1px solid #E5E5E5;
+}

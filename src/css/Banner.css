@@ -1,0 +1,34 @@
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://tobel.qodeinteractive.com/wp-content/uploads/2021/05/landong-parallax-2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tobel.qodeinteractive.com/wp-content/uploads/2021/05/landong-parallax-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+}
+
+.header-bottom {
+  position: absolute;
+  width: 100%;
+  background-color: #ECF2F8;
+  color: #fff;
+}
+.header-bottom .nav .navbar ul li {
+  margin: 0 14px;
+}
+.header-bottom .nav .navbar ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 1.4em;
+  letter-spacing: 0.3em;
+  font-weight: 400;
+  color: #000;
+}
+.header-bottom .nav .social-icons ul {
+  margin: 0;
+}
+.header-bottom .nav .social-icons ul li {
+  list-style: none;
+  color: #000;
+}

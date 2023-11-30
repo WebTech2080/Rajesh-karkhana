@@ -1,0 +1,14 @@
+.logo {
+  width: 16%;
+}
+
+.header-top-right .header-contact {
+  font-weight: 500;
+}
+.header-top-right .header-contact h5 {
+  font-size: 1rem;
+}
+.header-top-right .header-contact h5 i {
+  font-size: 1.2rem;
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+.about-header {
+  position: relative;
+}
+.about-header h1 {
+  position: absolute;
+  width: 100%;
+  font-size: 5.4rem;
+  bottom: -34px;
+  letter-spacing: 4px;
+  z-index: -1;
+}
+.about-header h1 span {
+  color: #F53311;
+}
+.about-policy {
+  border-bottom: 1px solid hsla(0, 0%, 53%, 0.3);
+  padding: 70px 0;
+}
+.about-policy-top-icon h4 {
+  font-size: 2.4rem;
+}
+.about-policy-bottom p {
+  color: grey;
+  letter-spacing: 1px;
+}
+.about-store {
+  padding: 80px 0;
+}
+.about-store-header {
+  margin-bottom: 22px;
+}
+.about-store-text h5 {
+  margin-bottom: 16px;
+}
+.about-suggestion {
+  padding: 120px 0;
+  background-color: #ECF2F8;
+}
+.about-suggestion-card-text {
+  width: 80%;
+  margin: auto;
+}
+.about-suggestion-card-text p {
+  font-size: 12px;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+@media (min-width: 992px) {
+    .container {
+        width: 1170px !important;
+        padding: 0;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #101F46;
+    font-family: 'Belleza', sans-serif;
+}
+p{
+    margin: 0;
+}

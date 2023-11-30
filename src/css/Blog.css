@@ -1,0 +1,29 @@
+.blog-left {
+  overflow: hidden;
+}
+.blog-left img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.blog-left img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.blog-mid h6 {
+  color: gray;
+}
+.blog-mid h3 {
+  font-weight: 600;
+}
+.blog-right {
+  overflow: hidden;
+}
+.blog-right img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  height: 339px;
+}
+.blog-right img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
