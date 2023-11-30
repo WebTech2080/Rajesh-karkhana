@@ -9,6 +9,8 @@ import Blog from './Blog/Blog'
 import Contact from './Contact/Contact'
 import About from './About/About'
 import Footer from './Footer/Footer'
+import Register from './Register/Register'
+import Login from './Login/Login'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
     <Blog/>
     <Contact/>
     <About/>
+    <Register/>
+    <Login/>
     <Footer/>
 
     </>

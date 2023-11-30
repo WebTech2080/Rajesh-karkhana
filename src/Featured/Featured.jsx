@@ -12,9 +12,14 @@ function Featured() {
                     <div className="featured-items pt-4">
                         <div className="featured-items-card">
                             <div className="owl-carousel">
-                                <div className="item"><h1>hellooo</h1></div>
-                                <div className="item"><h1>hellooo</h1></div>
-                                <div className="item"><h1>hellooooo</h1></div>
+                                <div className="item">
+                                    <div className="featured-items-card-img">
+                                        <img className='w-100' src="https://decorazzio.cmsmasters.net/wp-content/uploads/2015/05/shop_22-1.jpg" alt="" />
+                                    </div>
+                                    <div className="featured-items-card-text">
+                                        <h5></h5>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
