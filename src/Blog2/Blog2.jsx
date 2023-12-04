@@ -78,9 +78,15 @@ function Blog2() {
                                 </div>
                                 <div className="blog2-right-follow mb-3">
                                     <h2 className='mb-3'>Follow Us</h2>
+                                    <div className="follow-list">
                                     <p>INSTAGRAM</p>
+                                    </div>
+                                    <div className="follow-list">
                                     <p>FACEBOOK</p>
+                                    </div>
+                                    <div className="follow-list">
                                     <p>TWITTER</p>
+                                    </div>
                                 </div>
                                 <div className="blog2-right-author">
                                     <h2 className='mb-4'>About Owner</h2>

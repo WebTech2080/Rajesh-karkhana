@@ -1,8 +1,13 @@
 .blog2{
     &-left{
-        // &-img{
 
-        // }
+        &-img{
+            overflow: hidden;
+            img{
+                transform: scale(1.05) translateX(0);
+                transition: transform .6s cubic-bezier(.61,1,.88,1);
+            }
+        }
         h2{
             font-size: 2.4rem;        }
         p{
@@ -17,6 +22,10 @@
             li{
                 p{
                     font-size: 12px;
+                    transition: 0.9s;
+                    &:hover{
+                        transform: translateX(12px);
+                    }
                     
                 }
             }
@@ -31,6 +40,21 @@
                 font-size: 14px;
                 letter-spacing: 2px;
                 margin-bottom: 6px;
+                position: relative;
+                display: inline-block;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 1px;
+                    background-color: black; /* Change this to your desired underline color */
+                    transition: width 0.3s ease;
+                }
+                &:hover::before{
+                    width: 100%;
+                }
             }
         }
         &-author{
