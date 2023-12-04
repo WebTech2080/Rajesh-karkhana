@@ -16,7 +16,7 @@ function Login() {
                             <div className="col-md-6 p-0">
                                 <div className="login-body-form d-flex align-items-center rounded-end-4">
                                     <div className="form">
-                                        <h3 className='mb-4'>Sign in to Account</h3>
+                                        <h3 className='mb-4 text-center'>Sign in to Account</h3>
                                         <input type="number" placeholder='Phone Number*' />
                                         <input type="password" placeholder='Password*' />
                                         <button className='form-btn btn btn-primary w-100'>Login <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span></button>

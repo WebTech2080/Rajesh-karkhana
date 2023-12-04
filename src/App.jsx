@@ -11,6 +11,7 @@ import About from './About/About'
 import Footer from './Footer/Footer'
 import Register from './Register/Register'
 import Login from './Login/Login'
+import Blog2 from './Blog2/Blog2'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Featured/>
     <Gallery/>
     <Blog/>
+    <Blog2/>
     <Contact/>
     <About/>
     <Register/>

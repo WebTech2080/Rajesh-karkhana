@@ -5,10 +5,10 @@ function Blog() {
     return (
         <>
             <div className="blog my-5">
-                <div className="container">
-                    <div className="blog-header text-center my-5">
+            <div className="blog-header text-center py-5">
                         <h3>Our Blog</h3>
                     </div>
+                <div className="container">
                     <div className="row">
                         <div className="col-md-5">
                             <div className="blog-left">
@@ -22,7 +22,7 @@ function Blog() {
                                     <h3 className='py-3'>The Secrets to a Living Room that Draws You In</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Odit officiis itaque laudantium cum atque?</p>
-                                    <h6>Read More</h6>
+                                    <h6 className='mt-3'>Read More</h6>
                                 </div>
                             </div>
                         </div>
